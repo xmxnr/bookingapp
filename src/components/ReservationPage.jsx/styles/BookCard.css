@@ -1,0 +1,71 @@
+.booking__container {
+	width: 75vw;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 20px;
+	background-color: rgb(228, 228, 228);
+
+	.booking__img {
+		width: 30%;
+		border-radius: 20px;
+		object-fit: cover;
+	}
+
+	.booking__info {
+		width: 30%;
+		.hotel__name {
+			text-align: justify;
+		}
+	}
+
+	.hotel__counts {
+		width: 20%;
+		display: flex;
+		flex-direction: column;
+
+		.counts__value {
+			font-weight: 700;
+		}
+	}
+
+	.reservations__btn {
+		width: 5%;
+		margin-right: 10px;
+		background-color: #ea4959;
+		border-radius: 5px;
+		font-size: 2rem;
+		text-align: center;
+		margin: 20px;
+		&:hover{
+			color: aliceblue;
+		}
+	}
+}
+
+@media (max-width: 540px) {
+	.booking__container {
+		flex-direction: column;
+
+		.booking__img {
+			width: 100%;
+		}
+
+		.booking__info {
+			width: 100%;
+            text-align: center;
+            .hotel__name {
+                text-align: center;
+            }
+		}
+
+		.hotel__counts {
+			width: 100%;
+            text-align: center;
+		}
+
+        .reservations__btn{
+            width: 3rem;
+        }
+	}
+}

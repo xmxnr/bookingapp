@@ -1,0 +1,63 @@
+.hotelinfo__container{
+    width: 100%;
+    padding-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+
+    .hotelinfo__name{
+        text-align: center;
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    .hotelinfo__rating{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hotelinfo__graphics{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        .hotelinfo__carrusel{
+            max-width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5rem;
+        
+            img{
+                width: 75%;
+            }
+
+            button{
+                width: 40px;
+                background-color: #ea4959;
+                border-radius: 50%;
+                text-align: center;
+                color: aliceblue;
+            }
+        }
+        
+
+    }
+
+    .hotelinfo__map{
+        padding: 20px;
+    }
+
+    .hotelinfo__adress{
+        display: flex;
+        justify-content: center;
+        width: 70vw;
+
+    }
+
+    .hotelinfo__description{
+        width: 70%;
+        text-align: justify;
+    }
+
+}

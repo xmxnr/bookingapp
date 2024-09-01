@@ -1,0 +1,23 @@
+.byprice__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .byprice__title {
+        color: #ea4959;
+        font-size: 1.3rem;
+
+    }
+
+    .byprice__from {
+        input{
+            width: 4rem;
+        }
+    }
+
+    .byprice__to {
+        input{
+            width: 4rem;
+        }
+    }
+}

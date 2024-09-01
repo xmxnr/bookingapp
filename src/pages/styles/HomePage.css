@@ -1,0 +1,58 @@
+.home__container{
+    width: 100vw;
+}
+.form__container{
+    margin: auto;
+
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 100vw;
+
+        input{
+            min-width: 50%;
+            height: 1.5em;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(209, 207, 207)  ;
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        button {
+            height: 1.5em;
+            border-radius: 10px;
+            background-color: bisque;
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+.hotels__container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.home__filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+    margin: 5rem 0 0 0;
+    border-radius: 20px;
+
+
+    .filter__title {
+        font-size: 1.8rem;
+    }
+
+	.filter__components {
+		justify-content: space-around;
+		align-items: center;
+	}
+}

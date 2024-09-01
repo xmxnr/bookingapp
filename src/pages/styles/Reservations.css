@@ -1,0 +1,17 @@
+.reservations__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .reservations__title {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .reservations__cards{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 20px;
+    }
+}
